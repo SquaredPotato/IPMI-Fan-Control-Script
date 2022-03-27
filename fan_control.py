@@ -3,8 +3,8 @@ import time
 import sensors
 
 # Configurable temperature and fan speed steps
-tempSteps = [30, 40, 50, 60, 70]  # [°C]
-speedSteps = [20, 30, 50, 80, 100]  # [%]
+tempSteps = [30, 40, 45, 55, 60, 70]  # [°C]
+speedSteps = [30, 37, 40, 42, 80, 100]  # [%]
 
 ipmi_command = "ipmitool raw 0x30 0x30 0x02 0xff"
 
